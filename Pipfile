@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+psycopg2 = "*"
+jupyter = "*"
+pandas = "*"
+matplotlib = "*"
+numpy = "*"
+boto3 = "*"
+joblib = "*"
+statsmodels = "*"
+sklearn = "*"
+Spicy = "*"
+
+[requires]
+python_version = "3"
+
+[scripts]
